@@ -1,9 +1,20 @@
 [tool.poetry]
 name = "iso8601"
-version = "0.1.12"
+version = "0.1.13"
 description = "Simple module to parse ISO 8601 dates"
 authors = ["Michael Twomey <mick@twomeylee.name>"]
 license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/micktwomey/pyiso8601"
+repository = "https://github.com/micktwomey/pyiso8601"
+documentation = "https://pyiso8601.readthedocs.io/en/latest/"
+classifiers=[
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+]
+include = ["README.rst", "LICENSE", "tox.ini", "pyproject.toml", "poetry.lock"]
+python_requires = ">=2.7,<4.0"
 
 [tool.poetry.dependencies]
 python = "^3.8"
